@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(226, 236, 249, 0.5); 
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #FFFFFF;
+    height: 100%;
+    width: 306px;
+}
+
+.sidebar .logo-details img {
+    padding: 3%;
+}
+
+
+.sidebar .logo-details {
+    height: 39px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .logo-details .logo-name{
+    font-size: 26px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.sidebar .nav-links {
+    background: red;
+    height: 100%;
+    padding-top: 4%;
+}
+/* body {
+    background: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dashboard-page{
+    max-width: 1440px;
+    background: #FAFBFF;;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12% 2% 17%;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 500;
+}
+.numbers {
+   display: flex;
+   justify-content: center;
+}
+
+.graphs {
+    display: flex;
+    justify-content: center;
+    padding: 0 12% 2% 17%;
+} 
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 958px;
+    height: 472px;
+    border-radius: 30px;
+    background: #FFFFFF;
+} */
+
