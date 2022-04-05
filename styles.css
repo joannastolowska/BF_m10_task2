@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 * {
     margin: 0;
@@ -25,12 +25,13 @@ body {
     padding-right: 3%;
 }
 
-
 .sidebar .logo-details {
     height: 39px;
     width: 100%;
     display: flex;
     align-items: center;
+    padding-top: 15%;
+    padding-left: 10%;
 }
 
 .sidebar .logo-details .logo-name{
@@ -40,22 +41,27 @@ body {
 }
 
 .sidebar .nav-links {
-    background: red;
     height: 100%;
-    padding-top: 7%;
+    padding-top: 20%;
     padding-left: 10%;
-  
 }
 
 .sidebar .nav-links li {
     position: relative;
     list-style: none;
-    padding-bottom: 10%;
-
+    transition: all 0.4s ease;
+    padding-bottom: 15%;
+    color: #9197B3;
 }  
 
+.sidebar .nav-links li:hover {
+    background: #5932EA;
+    border-radius: 8px;
+}
+
 .sidebar .nav-links li img {
-    padding-right: 3%;
+    padding-right: 8%;
+    color: #9197B3;
 }
 
 .sidebar .nav-links li a {
@@ -63,23 +69,75 @@ body {
     align-items: center;
     text-decoration: none;
 }
+
 .sidebar .nav-links li a .link-name {
     font-size: 14px;
     font-weight: 500;
     color: #9197B3;
 }
 
-
-/* .dashboard-page{
-    max-width: 1440px;
-    background: #FAFBFF;;
+.sidebar .profile-details {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5%;
 }
 
-header{
+.sidebar .profile-details img {
+   padding-right: 15px;
+}
+
+.sidebar .name-job {
+    padding-right: 50px;
+ }
+.sidebar .profile-details .profile-name {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sidebar .profile-details .job {
+    font-size: 12px;
+    color: #757575;
+}
+.sidebar .advertisement-details {
+    position: fixed;
+    bottom: 120px;
+    width: 250px;
+    height: 150px;
+    background: linear-gradient(107.91deg, #EAABF0 7.37%, #4623E9 95.19%);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.sidebar .advertisement-details .advertisement-content {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    padding-bottom: 5%;
+}
+
+.sidebar .advertisement-details .advertisement-button {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4925E9;
+    letter-spacing: 0.01em;
+    background: #FFFFFF;
+    padding: 2% 18% 3% 18%;
+    box-shadow: 2px 4px 4px rgba(79, 42, 234, 0.17);
+    border-radius: 20px;
+}
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 12% 2% 17%;
+    padding: 0 22% 2% 25%;
 }
 
 .title {
@@ -93,17 +151,16 @@ header{
 
 .graphs {
     display: flex;
-    justify-content: center;
-    padding: 0 12% 2% 17%;
+    justify-content: space-between;
+    padding: 0 20% 0 20%;
 } 
 
 .products {
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 958px;
     height: 472px;
     border-radius: 30px;
     background: #FFFFFF;
-}  */
+} 
 
